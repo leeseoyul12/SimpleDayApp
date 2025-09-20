@@ -1,4 +1,4 @@
-plugins {
+    plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
@@ -66,4 +66,8 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+//    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.9.3")
+//    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.9.3")
+
 }
